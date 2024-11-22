@@ -1,0 +1,91 @@
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #333; 
+        }       
+        .year a{
+         color: white;
+        }
+
+        .logo a {
+          color: white;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold; 
+            letter-spacing: 2px;            
+        }
+       
+        .years {
+            display: flex;           
+            overflow-x: auto;             
+        }
+        .year {
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-left: 5px;
+            white-space: nowrap; 
+            cursor: pointer; 
+        }
+        .year:hover {
+            background-color: #555; 
+        }        
+        .section {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .movie-list {
+            display: flex;
+            overflow-x: auto; 
+            padding-bottom: 10px; 
+        }
+        .movie {
+            width: 150px;
+            margin-right: 10px;
+            text-align: center;
+        }
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .movie-title {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .movie-item {
+    border: 2px solid black; 
+    padding: 30px;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+        .feature {
+          padding: 20px;
+        }
+        .movie-card{
+          display: flex;
+          flex-direction: row;                    
+          height: 200px;
+          padding: 5px;
+          
+        }
+        
+        
+  
+  
