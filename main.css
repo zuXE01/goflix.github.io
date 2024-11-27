@@ -27,7 +27,12 @@
         .logo {
             font-size: 24px;
             font-weight: bold; 
-            letter-spacing: 2px;            
+            letter-spacing: 2px;        
+            color: white;  
+            text-shadow: 0px 0px 10px cyan; 
+            text-shadow: 0px 0px 20px cyan; 
+            text-shadow: 0px 0px 40px cyan;
+            text-shadow: 0px 0px 80px cyan;
         }
        
         .years {
@@ -84,14 +89,8 @@
           height: 200px;
           padding: 5px;
           
-          
         }
         
         
-  .about-us {
-  text-align: center;
-  text-decoration: none;
-  color: #333;
-}
   
   
