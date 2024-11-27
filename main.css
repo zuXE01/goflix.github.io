@@ -83,6 +83,7 @@
           flex-direction: row;                    
           height: 200px;
           padding: 5px;
+          overflow: hidden;
           
         }
         
