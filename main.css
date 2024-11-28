@@ -88,6 +88,25 @@
           padding: 5px;
           
         }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer a {
+            text-decoration: none;
+            color: #ffa500; 
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        footer .social-links a {
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        footer p {
+            margin: 5px 0;
         
         
   
